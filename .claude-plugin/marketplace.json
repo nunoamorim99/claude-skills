@@ -25,6 +25,16 @@
       "tags": ["documentation", "stakeholder", "pdf"]
     },
     {
+      "name": "idea-ledger",
+      "source": { "source": "git-subdir", "url": "https://github.com/nunoamorim99/idea-ledger.git", "path": "plugins/idea-ledger", "ref": "main" },
+      "description": "Capture ideas, track how each one evolves (v1, v2, v3…), and version what ships — in two plain-Markdown files (Backlog.md + VersionControl.md). The lightweight predecessor of Agile-Ledger.",
+      "author": { "name": "Nuno Amorim", "email": "nuno22amorim@gmail.com", "url": "https://github.com/nunoamorim99" },
+      "homepage": "https://github.com/nunoamorim99/idea-ledger",
+      "license": "MIT",
+      "category": "product-management",
+      "tags": ["ideas", "backlog", "versioning", "changelog", "markdown"]
+    },
+    {
       "name": "fortify",
       "source": { "source": "git-subdir", "url": "https://github.com/nunoamorim99/fortify.git", "path": "plugins/fortify", "ref": "main" },
       "description": "Assess how easily your product can be reverse engineered, cracked, scraped or cloned, then get a tailored protection plan in plain language, and apply it.",

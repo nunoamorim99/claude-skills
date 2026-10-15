@@ -14,6 +14,7 @@ Then install only what you need:
 |---|---|---|
 | [**Agile-Ledger**](https://github.com/nunoamorim99/agile-ledger) | Scrum backlog, sprints, board, velocity and releases in plain Markdown | `/plugin install agile-ledger@nunoamorim99` |
 | [**Cartographer**](https://github.com/nunoamorim99/cartographer) | Stakeholder documentation generated from your repositories | `/plugin install cartographer@nunoamorim99` |
+| [**Idea-Ledger**](https://github.com/nunoamorim99/idea-ledger) | Capture ideas, track how each evolves, and version what ships, in two Markdown files | `/plugin install idea-ledger@nunoamorim99` |
 | [**Fortify**](https://github.com/nunoamorim99/fortify) | Protection assessment against reverse engineering, cracking, scraping and cloning | `/plugin install fortify@nunoamorim99` |
 
 Update everything later with `/plugin marketplace update nunoamorim99`.
