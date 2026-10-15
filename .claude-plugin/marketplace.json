@@ -1,0 +1,38 @@
+{
+  "name": "nunoamorim99",
+  "owner": { "name": "Nuno Amorim", "email": "nuno22amorim@gmail.com", "url": "https://github.com/nunoamorim99" },
+  "metadata": {
+    "description": "Nuno Amorim's Claude Code plugins. Each plugin lives in its own repository; this repo is the catalog.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agile-ledger",
+      "source": { "source": "git-subdir", "url": "https://github.com/nunoamorim99/agile-ledger.git", "path": "plugins/agile-ledger", "ref": "main" },
+      "description": "Manage a Scrum backlog of Epics and User Stories, plan and run sprints, drive a board, track velocity, cut Major.Minor releases, and keep GitHub branches/commits/PRs traceable to stories — all from slash commands, in a ledger repo that keeps your code repos clean.",
+      "author": { "name": "Nuno Amorim", "email": "nuno22amorim@gmail.com", "url": "https://github.com/nunoamorim99" },
+      "homepage": "https://github.com/nunoamorim99/agile-ledger",
+      "category": "product-management",
+      "tags": ["scrum", "agile", "backlog", "sprint", "markdown"]
+    },
+    {
+      "name": "cartographer",
+      "source": { "source": "git-subdir", "url": "https://github.com/nunoamorim99/cartographer.git", "path": "plugins/cartographer", "ref": "main" },
+      "description": "Generate stakeholder documentation from a project's repositories — what each product does and how it fits together, as black-and-white Markdown + PDF.",
+      "author": { "name": "Nuno Amorim", "email": "nuno22amorim@gmail.com", "url": "https://github.com/nunoamorim99" },
+      "homepage": "https://github.com/nunoamorim99/cartographer",
+      "category": "documentation",
+      "tags": ["documentation", "stakeholder", "pdf"]
+    },
+    {
+      "name": "fortify",
+      "source": { "source": "git-subdir", "url": "https://github.com/nunoamorim99/fortify.git", "path": "plugins/fortify", "ref": "main" },
+      "description": "Assess how easily your product can be reverse engineered, cracked, scraped or cloned, then get a tailored protection plan in plain language, and apply it.",
+      "author": { "name": "Nuno Amorim", "email": "nuno22amorim@gmail.com", "url": "https://github.com/nunoamorim99" },
+      "homepage": "https://github.com/nunoamorim99/fortify",
+      "license": "MIT",
+      "category": "security",
+      "tags": ["security", "reverse-engineering", "obfuscation", "anti-piracy", "licensing", "clone-protection"]
+    }
+  ]
+}
