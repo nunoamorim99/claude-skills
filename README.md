@@ -19,6 +19,8 @@ Then install only what you need:
 
 Update everything later with `/plugin marketplace update nunoamorim99`.
 
+**No marketplace, or using Claude.ai?** Each plugin's repo publishes two zips on its *Releases* page: a drop-in for `.claude/` and a skill-only zip to upload under *Customize → Skills*.
+
 ## Team-wide
 
 Commit this to a project's `.claude/settings.json` so everyone who opens the project gets the marketplace (enable the plugins you want):
@@ -48,5 +50,6 @@ Commit this to a project's `.claude/settings.json` so everyone who opens the pro
    }
    ```
 3. Push. Users get it with `/plugin marketplace update nunoamorim99`.
+4. For release zips, copy `scripts/build_bundles.py`, `INSTALL.txt` and `.github/workflows/` from an existing plugin repo (e.g. fortify), then tag `v<version>`.
 
 Plugin repos should **not** ship their own `.claude-plugin/marketplace.json` named `nunoamorim99` — marketplace names must be unique, so this repo is the only one.
