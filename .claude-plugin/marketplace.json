@@ -16,6 +16,16 @@
       "tags": ["scrum", "agile", "backlog", "sprint", "markdown"]
     },
     {
+      "name": "agile-ledger-pro",
+      "source": { "source": "git-subdir", "url": "https://github.com/nunoamorim99/agile-ledger-pro.git", "path": "plugins/agile-ledger-pro", "ref": "main" },
+      "description": "The next generation of Agile-Ledger: the same plain-Markdown Scrum/Kanban ledger and commands, plus a local dashboard, insights and release notes. Reads an existing Agile-Ledger 2.0 ledger with nothing to migrate.",
+      "author": { "name": "Nuno Amorim", "email": "nuno22amorim@gmail.com", "url": "https://github.com/nunoamorim99" },
+      "homepage": "https://github.com/nunoamorim99/agile-ledger-pro",
+      "license": "MIT",
+      "category": "product-management",
+      "tags": ["scrum", "kanban", "agile", "backlog", "sprint", "dashboard", "markdown"]
+    },
+    {
       "name": "cartographer",
       "source": { "source": "git-subdir", "url": "https://github.com/nunoamorim99/cartographer.git", "path": "plugins/cartographer", "ref": "main" },
       "description": "Generate stakeholder documentation from a project's repositories — what each product does and how it fits together, as black-and-white Markdown + PDF.",
